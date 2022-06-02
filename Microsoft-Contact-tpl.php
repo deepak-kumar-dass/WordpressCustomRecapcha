@@ -43,17 +43,6 @@ get_header();?>
       <div class="row contactInnerbg">
          <div class="col-lg-4 contact-left-section d-lg-flex flex-column ">
           <?php the_field('contact_us_details');?>
-            <!-- <article>
-               <h4>Reach Us</h4>
-               <ul class="list-unstyled">
-                  <li>skype: <a href="skype:infostride?chat">infostride</a></li>
-                  <li>email: <a href="mailto:reachus@infostride.com">reachus@infostride.com</a></li>
-               </ul>
-            </article> -->
-            <div class="img-sec mt-5">
-               <img src="<?php echo get_site_url()?>/wp-content/uploads/2022/01/contact-img-b-1.png" class="w-100" alt="...">
-            </div>
-            <!-- <div class="social-block"><a href="https://www.facebook.com/infostride/" target="_blank">Facebook </a> <a href="https://www.linkedin.com/company/infostride/" target="_blank"> LinkedIn </a> <a href="https://twitter.com/infostrideinc" target="_blank"> Twitter</a></div> -->
          </div>
          <div class="col-lg-8">
             <div class="card contact-form-block ">
@@ -118,45 +107,6 @@ get_header();?>
       </div>
    </div>
 </section>
-<!--contactInnerContent-->
-<section class="map-section">
-   <div class="container">
-      <h3 class="border-bot"><?=the_field('contactus_map_title');?></h3>
-      <p class="f-18 mb-5"><?php the_field('contactus_map_text');?></p>
-      <nav class="nav f-18 " role="tablist">
-         <a class="nav-link active" data-bs-toggle="pill" data-bs-target="#pills-1" type="button"
-            role="tab"><span><?php the_field('head_quarter_address');?></span></a>
-         <a class="nav-link" data-bs-toggle="pill" data-bs-target="#pills-2" type="button"
-            role="tab"><span><?php the_field('offshore_office_address');?></span></a>
-      </nav>
-   </div>
-   <div class="container-fluid px-0">
-      <div class="tab-content" >
-         <div class="tab-pane fade active show" id="pills-1">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3173.054488137127!2d-121.94981528483974!3d37.31753697984527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fcadf57871f6b%3A0x74d3caea4de9be67!2sSpaces%20-%20California%2C%20San%20Jose%20-%20Spaces%20San%20Jose%20-%20Santana%20Row!5e0!3m2!1sen!2sin!4v1624552645713!5m2!1sen!2sin" width="100%" height="981" style="border:0; display: block;" allowfullscreen="" loading="lazy"></iframe>
-         </div>
-         <div class="tab-pane fade" id="pills-2">
-            <iframe class="x-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3430.3512176856193!2d76.69984491461015!3d30.708525293851046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fefe2698cc73d%3A0xf5e6c81b52d16001!2sInfoStride%20Technologies%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1622913270876!5m2!1sen!2sin" width="100%" height="981" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-         </div>
-      </div>
-   </div>
-</section>
-<!--map-section-->
-<div class="serviceget_bottom">
-   <div class="container">
-      <div class="row">
-           <div class="col-lg-12">
-              <h2><?php the_field('lwt_contact_us_title');?></h2>
-              <h5 class="text-white"><?php the_field('lwt_contact_us_text');?></h5>
-           </div>
-      </div>
-        <div class="col-lg-12 text-center mt-5">
-          <a href="<?php the_field('lwt_contact_us_button_link');?>" class="btn btn-primary start-project-btn">
-            <?php the_field('lwt_contact_us_button_text');?> 
-          </a>
-        </div>
-   </div>
-</div>
 <!--Message Popup-->
 <div class="modal fade bd-example-modal-lg success-msg-modal" id="myModal2" style="display:none;" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
    <div class="modal-dialog modal-lg modal-dialog-centered">
