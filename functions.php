@@ -3,7 +3,6 @@
  * Functions and definitions
  */
 
-
 // Custom ReCapcha validation method. 
 
 function reCapchaVerify(){
